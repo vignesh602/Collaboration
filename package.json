@@ -1,0 +1,35 @@
+{
+  "name": "armwire-node",
+  "version": "0.0.1",
+  "description": "Node server powered by exoress.js & socket.io",
+  "private": true,
+  "scripts": {
+    "start": "NODE_ENV=developement nodemon --watch server/ bin/www"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "axios": "^0.16.2",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-stage-3": "^6.3.13",
+    "babel-register": "^6.3.13",
+    "body-parser": "~1.14.2",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "~1.4.0",
+    "cors": "^2.8.3",
+    "express": "~4.13.3",
+    "express-session": "^1.12.1",
+    "glob": "^6.0.1",
+    "lodash": "^4.0.1",
+    "method-override": "^2.3.5",
+    "morgan": "~1.6.1",
+    "socket.io": "^1.4.6"
+  },
+  "babel": {
+    "presets": [
+      "es2015",
+      "stage-3"
+    ]
+  }
+}
